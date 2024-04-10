@@ -9,10 +9,6 @@ Apartamentos LogiRail es una plataforma integral diseñada para facilitar la ges
 - Los empleados pueden acceder a un portal en línea para buscar, reservar y gestionar apartamentos disponibles.
 - La plataforma muestra detalles como ubicación, tamaño, comodidades y disponibilidad.
 
-### Asignación Automatizada:
-- Utilizando algoritmos inteligentes, Apartamentos LogiRail asigna automáticamente apartamentos según la disponibilidad y las preferencias de los empleados.
-- Se tienen en cuenta factores como la ubicación del lugar de trabajo, la duración de la estancia y las necesidades específicas.
-
 ### Seguimiento de Mantenimiento:
 - Los administradores pueden registrar y programar tareas de mantenimiento para cada apartamento.
 - Los empleados pueden informar problemas o solicitar reparaciones a través de la plataforma.
@@ -21,9 +17,6 @@ Apartamentos LogiRail es una plataforma integral diseñada para facilitar la ges
 - Apartamentos LogiRail permite la comunicación directa entre los empleados y los administradores de viviendas.
 - Los anuncios importantes, actualizaciones y recordatorios se envían a través de la plataforma.
 
-### Informes y Estadísticas:
-- Generación de informes sobre la ocupación, el uso y el estado de los apartamentos.
-- Análisis de tendencias para tomar decisiones informadas sobre la gestión de la vivienda.
 
 ## Beneficios:
 - **Eficiencia:** Simplifica la asignación y seguimiento de apartamentos, reduciendo la carga administrativa.
