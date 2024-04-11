@@ -47,3 +47,11 @@ Escapa del bullicio de la ciudad en nuestros entornos pacíficos y bien mantenid
 ## Diagrama de contexto
 
 ![Diagrama](diagrama.png)
+
+## Cliente 
+
+![Diagrama](cliente.png)
+
+## Limpieza
+
+![Diagrama](limpieza.png)
