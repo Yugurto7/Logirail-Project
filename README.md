@@ -1,5 +1,8 @@
 # Proyecto Apartamentos LogiRail
 
+[TestLink](https://testlink.remmko.online)
+
+
 ## Vision de producto:
 Apartamentos LogiRail es una plataforma integral diseñada para facilitar la gestión y asignación de apartamentos a los empleados de Renfe. El objetivo principal es proporcionar un sistema eficiente y transparente que optimice la experiencia de vivienda para los trabajadores desplazados.
 
@@ -41,7 +44,7 @@ Experimenta la conveniencia de comodidades modernas como internet de alta veloci
 Escapa del bullicio de la ciudad en nuestros entornos pacíficos y bien mantenidos. Nuestros apartamentos ofrecen un refugio tranquilo donde puedes relajarte después de un largo día de trabajo, recargar tus baterías y prepararte para los desafíos que se presenten.
 
 ### Ambiente Comunitario
-Únete a una comunidad vibrante de individuos con ideas afines que comparten tu pasión por el trabajo y el ocio. Participa en eventos para residentes, oportunidades de networking y reuniones sociales para construir conexiones y amistades significativas.
+Únete a una comunidad vibrante de individuos con ideas afines que comparten tu pasión por el trabajo y el ocio. Participa en eventos para residentes, oportunidades de networking y reuniones sociales para construir conexiones y amistades.
 
 
 ## Diagrama de contexto
