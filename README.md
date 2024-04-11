@@ -49,16 +49,16 @@ Escapa del bullicio de la ciudad en nuestros entornos pacíficos y bien mantenid
 
 ## Diagrama de contexto
 
-![Diagrama](diagrama.png)
+![Diagrama](Diagramas/diagrama.png)
 
 ## Manager
 
-![Diagrama](manager.png)
+![Diagrama](Diagramas/manager.png)
 
 ## Cliente 
 
-![Diagrama](cliente.png)
+![Diagrama](Diagramas/cliente.png)
 
 ## Limpieza
 
-![Diagrama](limpieza.png)
+![Diagrama](Diagramas/limpieza.png)
