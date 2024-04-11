@@ -48,6 +48,10 @@ Escapa del bullicio de la ciudad en nuestros entornos pacíficos y bien mantenid
 
 ![Diagrama](diagrama.png)
 
+## Manager
+
+![Diagrama](manager.png)
+
 ## Cliente 
 
 ![Diagrama](cliente.png)
