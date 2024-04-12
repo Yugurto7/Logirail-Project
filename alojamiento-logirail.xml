@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Requisitos funcionales"  doc_id="RF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[0]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<req_spec title="Historias de usuario"  doc_id="RF2 HU"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		</req_spec>
+<req_spec title="Subsistema de empleados desplazados"  doc_id="RF1"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[RF 1.1]]></docid>
+		<title><![CDATA[Consultar estancias]]></title>
+		<version>1</version>
+		<revision>3</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>El empleado desplazado est&aacute; planeando un viaje de trabajo y necesita encontrar un lugar para alojarse en la zona donde estar&aacute; desplazado. El empleado accede a la&nbsp;plataforma que proporciona informaci&oacute;n sobre las estancias disponibles en esa &aacute;rea. Utilizando preferencias personales, como el tipo de alojamiento, las comodidades deseadas, el presupuesto y la ubicaci&oacute;n exacta, el empleado filtra las opciones disponibles.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.2]]></docid>
+		<title><![CDATA[Solicitar reserva]]></title>
+		<version>1</version>
+		<revision>5</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>Con una semana de anticipaci&oacute;n al inicio de su viaje, el empleado procede a revisar las diversas opciones de alojamiento disponibles en la zona de su desplazamiento. Despu&eacute;s de evaluar detenidamente las distintas alternativas y considerar sus necesidades y preferencias, selecciona la estancia que mejor se ajusta a sus requisitos. Esta anticipaci&oacute;n de 7 d&iacute;as le permite al empleado asegurar el alojamiento deseado con suficiente tiempo de antelaci&oacute;n, garantizando as&iacute; una planificaci&oacute;n efectiva para su viaje de trabajo.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.3]]></docid>
+		<title><![CDATA[Cancelar reserva]]></title>
+		<version>1</version>
+		<revision>3</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>En caso de que surja la necesidad de cancelar su viaje de trabajo, el empleado tiene la opci&oacute;n de hacerlo con una anticipaci&oacute;n de 2 d&iacute;as antes de la fecha programada. Esta pol&iacute;tica de cancelaci&oacute;n brinda al empleado cierta flexibilidad en caso de cambios de &uacute;ltimo momento en su agenda o circunstancias imprevistas. Al cancelar con este margen de tiempo, a la empresa se le devolver&aacute; el dinero de la reserva, en el caso de que no se cancele con ese margen de tiempo no se devolver&aacute; el importe de ese alojamiento.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.4]]></docid>
+		<title><![CDATA[Notificación de confirmación de reserva]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<p>&nbsp;</p>
+
+<p>Despu&eacute;s de que el empleado haya solicitado la reserva de alojamiento, recibir&aacute; una confirmaci&oacute;n por parte del sistema. Esta confirmaci&oacute;n ser&aacute; enviada por correo electr&oacute;nico y contendr&aacute; los detalles espec&iacute;ficos de la reserva, como las fechas de inicio y finalizaci&oacute;n del alojamiento, la ubicaci&oacute;n, el tipo de habitaci&oacute;n seleccionado y cualquier otra informaci&oacute;n relevante. La confirmaci&oacute;n servir&aacute; como comprobante de la reserva realizada por el empleado y proporcionar&aacute; la tranquilidad de que se ha asegurado el alojamiento deseado para su viaje de trabajo.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.5]]></docid>
+		<title><![CDATA[Notificación de cancelación de la reserva]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>6</node_order>
+		<description><![CDATA[<p>Despu&eacute;s de que el empleado haya cancelado la reserva de alojamiento, recibir&aacute; una confirmaci&oacute;n por parte del sistema. Esta confirmaci&oacute;n ser&aacute; enviada por correo electr&oacute;nico y contendr&aacute; los detalles pertinentes de la cancelaci&oacute;n, como la fecha y hora en que se realiz&oacute; la cancelaci&oacute;n, el n&uacute;mero de reserva afectado y cualquier pol&iacute;tica de cancelaci&oacute;n aplicable. La confirmaci&oacute;n servir&aacute; como comprobante de que la reserva ha sido cancelada con &eacute;xito y proporcionar&aacute; la tranquilidad de que los cambios han sido registrados correctamente en el sistema.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+<req_spec title="Subsistema de mantenimiento"  doc_id="RF2"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[3]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[RF 2.2]]></docid>
+		<title><![CDATA[Aceptar tarea]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>El limpiador acepta la habitaci&oacute;n que quiere limpiar.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.1]]></docid>
+		<title><![CDATA[Consultar tarea]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>El sistema le mostrar&aacute; las habitaciones que hay para limpiar y el se asignar&aacute; la que quiere limpiar.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.3]]></docid>
+		<title><![CDATA[Limpiar la habitación]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<p>El limpiador limpia la habitaci&oacute;n que se ha asignado.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.4]]></docid>
+		<title><![CDATA[Confirmar tarea hecha]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>6</node_order>
+		<description><![CDATA[<p>El limpador confirma que ha acabado la habitaci&oacute;n desde el sistema</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</req_spec>
+<req_spec title="Requisitos no funcionales"  doc_id="RNF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		</req_spec>
+<req_spec title="Requisitos de datos"  doc_id="RD"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		</req_spec>
+</requirement-specification>
