@@ -54,10 +54,6 @@ Escapa del bullicio de la ciudad en nuestros entornos pacíficos y bien mantenid
 
 ![Diagrama](Diagramas/diagrama.png)
 
-## Manager
+## Mantenimiento
 
-![Diagrama](Diagramas/manager.png)
-
-## Limpieza
-
-![Diagrama](Diagramas/limpieza.png)
+![Diagrama](Diagramas/mantenimiento.png)
