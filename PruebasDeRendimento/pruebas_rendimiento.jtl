@@ -1,0 +1,17 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715768397801,34,Entrar nueva tarea,404,Not Found,Presonal de mantenimiento 1-1,text,false,,345,126,1,2,http://localhost:8181/addtask,34,0,22
+1715768397844,3,Recibir hoja de trabajo,404,Not Found,Presonal de mantenimiento 1-1,text,false,,349,130,1,2,http://localhost:8181/gettasklist,3,0,0
+1715768397801,4090,Ir a opcion de alquilar y escoger preferencias,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Usuarios 2-1,text,false,,2739,0,1,1,http://localhost/alquilar,0,0,4090
+1715768401905,6,Rellenar preferencias,404,Not Found,Usuarios 2-1,text,false,,345,126,1,1,http://localhost:8181/addform,6,0,1
+1715768401912,4,Buscar estancias,404,Not Found,Usuarios 2-1,text,false,,348,129,1,1,http://localhost:8181/findstance,4,0,0
+1715768401917,4076,Ir a opcion de alquilar y escoger preferencias,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Usuarios 2-1,text,false,,2739,0,1,1,http://localhost/alquilar,0,0,4076
+1715768405996,13,Rellenar preferencias,404,Not Found,Usuarios 2-1,text,false,,345,126,1,1,http://localhost:8181/addform,13,0,0
+1715768406010,3,Buscar estancias,404,Not Found,Usuarios 2-1,text,false,,348,129,1,1,http://localhost:8181/findstance,3,0,0
+1715768406014,4070,Solicitar reserva,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Usuarios 2-1,text,false,,2739,0,1,1,http://localhost/getreserve,0,0,4070
+1715768410085,5,Rellenar fechas,404,Not Found,Usuarios 2-1,text,false,,345,126,1,1,http://localhost:8181/adddate,5,0,0
+1715768410092,4067,Obtener notificación,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Usuarios 2-1,text,false,,2739,0,1,1,http://localhost/getnotification,0,0,4067
+1715768414162,4073,Ir al apartado de mis reservas,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Usuarios 2-1,text,false,,2739,0,1,1,http://localhost/misreservas,0,0,4073
+1715768418236,4,Cancelar la reserva,404,Not Found,Usuarios 2-1,text,false,,351,132,1,1,http://localhost:8181/cancelreserve,4,0,1
+1715768418241,2,Recibir notificación,404,Not Found,Usuarios 2-1,text,false,,354,135,1,1,http://localhost:8181/sendnotification,2,0,0
+1715768418244,3,Entrar al registro,404,Not Found,Usuarios 2-1,text,false,,346,127,1,1,http://localhost:8181/register,3,0,0
+1715768418247,3,Registrarse,404,Not Found,Usuarios 2-1,text,false,,350,131,1,1,http://localhost:8181/sendregister,3,0,0

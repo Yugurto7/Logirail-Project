@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Requisitos no funcionales"  doc_id="RNF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[0]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+	<requirement>
+		<docid><![CDATA[RNF 1.1]]></docid>
+		<title><![CDATA[Tiempo mínimo de reserva]]></title>
+		<version>1</version>
+		<revision>4</revision>
+		<node_order>0</node_order>
+		<description><![CDATA[<p>Alojamiento se tiene que reservar con una antelaci&oacute;n minima de 7 dias.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Baja]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[C]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que el usuario ha hecho la reserva con mínimo 7 días de antelación, se realiza la reserva correctamente.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[5]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RNF 1.2]]></docid>
+		<title><![CDATA[Tiempo máximo de cancelación de reserva]]></title>
+		<version>1</version>
+		<revision>4</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Alojamiento se puede cancelar con una con una anticipaci&oacute;n m&aacute;xima de 2 d&iacute;as antes de la fecha programada</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Baja]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[C]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que el usuario ha cancelado la reserva con mínimo 2 días de antelación, está dentro del plazo para que sea posible dicha cancelación.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[5]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RNF 1.3]]></docid>
+		<title><![CDATA[Autenticación]]></title>
+		<version>1</version>
+		<revision>3</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>La autenticaci&oacute;n se llevar&aacute; a cabo mediante el sistema de Autenticaci&oacute;n interno de LogiRail, el qual se ocupar&aacute; de crear usuarios con los datos que te pida, iniciar sesi&oacute;n una vez has creado tu usuario y la politica de contrase&ntilde;as.&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Media]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que necesitamos un sistema para autenticar los usuarios, entonces usaremos el sistema interno que tiene LogiRAIL para autenticar sus usuarios.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<relation>
+		<source>RNF 1.1</source>
+		<destination>RD 1.2</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RNF 1.2</source>
+		<destination>RD 1.3</destination>
+		<type>3</type>
+	</relation>
+</req_spec>
+<req_spec title="Requisitos de datos"  doc_id="RD"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+	<requirement>
+		<docid><![CDATA[RD 1.1]]></docid>
+		<title><![CDATA[Hoja de trabajo]]></title>
+		<version>1</version>
+		<revision>6</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>La hoja de trabajo ser&aacute; recibida por el personal de mantenimiento, esta hoja deber&aacute; incluir:</p>
+
+<ul>
+	<li>Ubicaci&oacute;n del mantenimeinto
+	<ul>
+		<li>Calle</li>
+		<li>N&uacute;mero</li>
+		<li>Codigo postal</li>
+		<li>N&ordm; habitaci&oacute;n</li>
+	</ul>
+	</li>
+	<li>Naturaleza del problema</li>
+	<li>Materiales o herramientas necesarias</li>
+	<li>Tiempo estimado de la tarea</li>
+	<li>Fecha limite para completar la tarea</li>
+	<li>Cualquier instrucci&oacute;n especial o consideraci&oacute;n de seguridad relevante</li>
+</ul>]]></description>
+		<status><![CDATA[F]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RD 1.2]]></docid>
+		<title><![CDATA[Datos de reserva]]></title>
+		<version>1</version>
+		<revision>5</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<ul>
+	<li>Ubicaci&oacute;n
+	<ul>
+		<li>Calle</li>
+		<li>N&uacute;mero</li>
+		<li>Codigo postal</li>
+		<li>N&ordm; habitaci&oacute;n</li>
+	</ul>
+	</li>
+	<li>Fecha de entrada (tiene que ser &gt;= Fecha de hoy + 7 dias)</li>
+	<li>Fecha de salida</li>
+	<li>Hora</li>
+</ul>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RD 1.3]]></docid>
+		<title><![CDATA[Datos de cancelación de reserva]]></title>
+		<version>1</version>
+		<revision>3</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<ul>
+	<li>Ubicaci&oacute;n del mantenimeinto
+	<ul>
+		<li>Calle</li>
+		<li>N&uacute;mero</li>
+		<li>Codigo postal</li>
+		<li>N&ordm; habitaci&oacute;n</li>
+	</ul>
+	</li>
+	<li>Fecha</li>
+	<li>Hora</li>
+</ul>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RD 1.4]]></docid>
+		<title><![CDATA[Preferencias]]></title>
+		<version>1</version>
+		<revision>7</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<ul>
+	<li>Tipo -&gt; default(cualquiera)&nbsp;
+	<ul>
+		<li>Cualquiera</li>
+		<li>Dublex</li>
+		<li>Apartamento</li>
+		<li>Hotel</li>
+	</ul>
+	</li>
+	<li>Comodidades -&gt;&nbsp; default(cualquiera)&nbsp;
+	<ul>
+		<li>Cualquiera</li>
+		<li>Picina</li>
+		<li>Wifi</li>
+		<li>Aire acondicionado</li>
+		<li>Balcon</li>
+	</ul>
+	</li>
+	<li>Ciudad -&gt;&nbsp;required(Spain)-&gt;required(true) Dropdown with a cities of Spain.</li>
+	<li>Zona -&gt; default(cualquiera) Dropdown with zones of selected city.&nbsp;</li>
+</ul>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RD 1.5]]></docid>
+		<title><![CDATA[Alojamiento]]></title>
+		<version>1</version>
+		<revision>5</revision>
+		<node_order>6</node_order>
+		<description><![CDATA[<ul>
+	<li>Ciudad</li>
+	<li>Zona</li>
+	<li>Direccion</li>
+	<li>Numero alojamiento</li>
+	<li>Tipo
+	<ul>
+		<li>Dublex</li>
+		<li>Apartamento</li>
+		<li>Hotel</li>
+	</ul>
+	</li>
+	<li>Caracteristicas
+	<ul>
+		<li>Picina</li>
+		<li>Wifi</li>
+		<li>Aire acondicionado</li>
+		<li>Balcon</li>
+	</ul>
+	</li>
+	<li>Estado -&gt; (Ocupado, Disponible)</li>
+</ul>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<relation>
+		<source>RF 2.1</source>
+		<destination>RD 1.1</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.4</source>
+		<destination>RD 1.2</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.2</source>
+		<destination>RD 1.2</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RNF 1.1</source>
+		<destination>RD 1.2</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.3</source>
+		<destination>RD 1.3</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.5</source>
+		<destination>RD 1.3</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RNF 1.2</source>
+		<destination>RD 1.3</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RD 1.4</source>
+		<destination>RF 1.1</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.0</source>
+		<destination>RD 1.4</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.1</source>
+		<destination>RD 1.5</destination>
+		<type>3</type>
+	</relation>
+</req_spec>
+<req_spec title="Historias de usuario"  doc_id="RF2 HU"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[3]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+<req_spec title="Personal de mantenimiento"  doc_id="HU 2"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+<req_spec title="Buen estado"  doc_id="HU 2.1"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como personal de mantenimento, quiero saber los alojamientos que est&aacute;n en buen estado y los que no para saber los alojamientos en los cual tengo que realizar el mantenimiento</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Actualización de tareas"  doc_id="HU 2.2"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como personal de mantenimiento, quiero tener la hoja de trabajo actualizada para saber las tareas que ya estan realizadas.</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Tarea realizada"  doc_id="HU 2.3"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[3]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como personal de mantenimiento, quiero tener la posibilidad de confirmar la tarea realizada para que todo el mundo sepa que la tarea ha sido realizada</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Tarea asignada"  doc_id="HU 2.4"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[4]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como personal de mantenimiento, quiero poder asignarme un alojamiento para realizar la tarea pendiente, de forma que a un compa&ntilde;ero no pueda hacer la misma tarea que yo.</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+</req_spec>
+<req_spec title="Empleados desplazados"  doc_id="HU1"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[3]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+<req_spec title="Limpieza del alojamiento"  doc_id="HU1.1"  >
+	<revision><![CDATA[7]]></revision>
+	<type><![CDATA[2]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como empleado desplazado quiero que el alojamiento este en buen estado en mi ausencia, para asi no tener que preocuparme al llegar.</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[No Valorado]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Habitaciones disponibles"  doc_id="HU1.2"  >
+	<revision><![CDATA[3]]></revision>
+	<type><![CDATA[2]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como empleado desplazado, quiero saber que habitaciones hay disponibles en los alojamientos, para poder elegir cual quiero.</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Dirección alojamiento"  doc_id="HU1.3"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como empleado desplazado, quiero que me muestre la direccion de donde esta el alojamiento, para poder saber la ubicaci&oacute;n.</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+</req_spec>
+</req_spec>
+<req_spec title="Requisitos funcionales"  doc_id="RF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[4]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+<req_spec title="Subsistema de empleados desplazados"  doc_id="RF1"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+	<requirement>
+		<docid><![CDATA[RF 1.0]]></docid>
+		<title><![CDATA[Elegir preferencias]]></title>
+		<version>1</version>
+		<revision>5</revision>
+		<node_order>0</node_order>
+		<description><![CDATA[<p>Antes de realizar las busquedas para los alojamientos, hay que elegir las preferencias de los empleados desplazados.</p>
+
+<p>Hay que introducir Preferencia, Tipo, Comodidades, Ciudad y&nbsp;Zona. (ver los Requisitos de Datos)&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que el empleado desplazado necesita alojamiento, cuando le sale la lista de preferencias, entonces escoge las preferencias personales que necesita.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[7]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.1]]></docid>
+		<title><![CDATA[Consultar estancias]]></title>
+		<version>1</version>
+		<revision>10</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>El empleado desplazado est&aacute; planeando un viaje de trabajo y necesita encontrar un lugar para alojarse en la zona donde estar&aacute; desplazado. El empleado accede a la&nbsp;plataforma que proporciona informaci&oacute;n sobre las estancias disponibles en esa &aacute;rea. Utilizando preferencias personales, como el tipo de alojamiento, las comodidades deseadas, ciudad y zona, el empleado filtra las opciones disponibles.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[B]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que el empleado desplazado ya ha escogido sus preferencias, cuando el empleado busca alojamientos, entonces aparecen los alojamientos disponibles con sus preferencias personales.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[7]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.2]]></docid>
+		<title><![CDATA[Solicitar reserva]]></title>
+		<version>1</version>
+		<revision>10</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Con una semana de anticipaci&oacute;n al inicio de su viaje, el empleado procede a revisar las diversas opciones de alojamiento disponibles en la zona de su desplazamiento. Despu&eacute;s de evaluar detenidamente las distintas alternativas y considerar sus necesidades y preferencias, selecciona la estancia que mejor se ajusta a sus requisitos. Tiene que mostrar visiblemente que no se puede reservar alojamientos con menos de 7 dias o los que estan ocupados</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[B]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que ha escogido un alojamiento, cuando el empleado va a pagar el apartamento, entonces logirail paga el alojamiento y todos los gastos.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[8]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.3]]></docid>
+		<title><![CDATA[Cancelar reserva]]></title>
+		<version>1</version>
+		<revision>6</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>En caso de que surja la necesidad de cancelar su viaje de trabajo, el empleado tiene la opci&oacute;n de hacerlo con una anticipaci&oacute;n de 2 d&iacute;as antes de la fecha programada. Esta pol&iacute;tica de cancelaci&oacute;n brinda al empleado cierta flexibilidad en caso de cambios de &uacute;ltimo momento en su agenda o circunstancias imprevistas. Al cancelar con este margen de tiempo, a la empresa se le devolver&aacute; el dinero de la reserva, en el caso de que no se cancele con ese margen de tiempo no se devolver&aacute; el importe de ese alojamiento.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Media]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[C]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que un empleado tiene un viaje de trabajo programado, cuando surge la necesidad de cancelar dicho viaje, entonces el empleado puede hacerlo con al menos 2 días de anticipación a la fecha programada.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[6]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.4]]></docid>
+		<title><![CDATA[Notificación de confirmación de reserva]]></title>
+		<version>1</version>
+		<revision>9</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>&nbsp;</p>
+
+<p>Despu&eacute;s de que el empleado haya solicitado la reserva de alojamiento, recibir&aacute; una confirmaci&oacute;n por parte del sistema. Esta confirmaci&oacute;n ser&aacute; enviada por correo electr&oacute;nico y contendr&aacute; los detalles espec&iacute;ficos de la reserva, como las fechas de inicio y finalizaci&oacute;n del alojamiento, la ubicaci&oacute;n, el tipo de habitaci&oacute;n seleccionado y cualquier otra informaci&oacute;n relevante. La confirmaci&oacute;n servir&aacute; como comprobante de la reserva realizada por el empleado y proporcionar&aacute; la tranquilidad de que se ha asegurado el alojamiento deseado para su viaje de trabajo.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[B]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que un empleado ha solicitado una reserva de alojamiento, cuando el sistema procesa la solicitud y genera una confirmación, entonces debe ser enviada por el correo electrónico y incluir detalles específicos de la reserva.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[7]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.5]]></docid>
+		<title><![CDATA[Notificación de cancelación de la reserva]]></title>
+		<version>1</version>
+		<revision>6</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<p>Despu&eacute;s de que el empleado haya cancelado la reserva de alojamiento, recibir&aacute; una confirmaci&oacute;n por parte del sistema. Esta confirmaci&oacute;n ser&aacute; enviada por correo electr&oacute;nico y contendr&aacute; los detalles pertinentes de la cancelaci&oacute;n, como la fecha y hora en que se realiz&oacute; la cancelaci&oacute;n, el n&uacute;mero de reserva afectado y cualquier pol&iacute;tica de cancelaci&oacute;n aplicable. La confirmaci&oacute;n servir&aacute; como comprobante de que la reserva ha sido cancelada con &eacute;xito y proporcionar&aacute; la tranquilidad de que los cambios han sido registrados correctamente en el sistema.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Baja]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[C]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que un empleado ha cancelado una reserva de alojamiento, cuando el sistema procesa la solicitud y genera una confirmación, entonces debe ser enviada por el correo electrónico y debe incluir los detalles pertinentes de la cancelación.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[6]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<relation>
+		<source>RF 1.0</source>
+		<destination>RD 1.4</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RD 1.4</source>
+		<destination>RF 1.1</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.1</source>
+		<destination>RD 1.5</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.2</source>
+		<destination>RD 1.2</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.3</source>
+		<destination>RD 1.3</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.4</source>
+		<destination>RD 1.2</destination>
+		<type>3</type>
+	</relation>
+	<relation>
+		<source>RF 1.5</source>
+		<destination>RD 1.3</destination>
+		<type>3</type>
+	</relation>
+</req_spec>
+<req_spec title="Subsistema de mantenimiento"  doc_id="RF2"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[3]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Esp.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+	<requirement>
+		<docid><![CDATA[RF 2.1]]></docid>
+		<title><![CDATA[Recibir hoja de trabajo]]></title>
+		<version>1</version>
+		<revision>8</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Despu&eacute;s de que se genere una solicitud de mantenimiento, el personal encargado de realizar estas tareas recibir&aacute; una hoja de trabajo que contiene los detalles espec&iacute;ficos de la tarea a realizar. Esta hoja de trabajo se recibe mediante la aplicaci&oacute;n. La hoja de trabajo contiene datos (mirar RD:1.1) y&nbsp;proporciona al personal de mantenimiento la gu&iacute;a necesaria para llevar a cabo la tarea de manera eficiente y segura.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[B]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que se genera una solicitud de mantenimiento, cuando el personal encargado de realizar las tareas la recibe, entonces la hoja de trabajo debe contener los detalles específicos de la tarea]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[4]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.2]]></docid>
+		<title><![CDATA[Registrar tarea]]></title>
+		<version>1</version>
+		<revision>5</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<p>&nbsp;</p>
+
+<p>Despu&eacute;s de recibir la hoja de trabajo, el personal de mantenimiento procede a registrar la tarea que va a realizar en el sistema de gesti&oacute;n correspondiente. Esto implica ingresar los detalles relevantes de la tarea, como la ubicaci&oacute;n espec&iacute;fica, la descripci&oacute;n del problema o la tarea a realizar, los materiales o herramientas necesarios, y cualquier otra informaci&oacute;n pertinente. Adem&aacute;s, el personal de mantenimiento puede actualizar el estado de la tarea a medida que avanza, registrando cualquier comentario adicional o cambios realizados durante el proceso de mantenimiento.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Media]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[B]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que la hoja de trabajo tiene muchas tareas, cuando el personal de mantenimiento elije la tarea que va a hacer, entonces selecciona una tarea y le queda asignada para el, de esta forma dos trabajadores no realizan la misma tarea.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[4]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.3]]></docid>
+		<title><![CDATA[Registrar tarea finalizada]]></title>
+		<version>1</version>
+		<revision>4</revision>
+		<node_order>6</node_order>
+		<description><![CDATA[<p>&nbsp;</p>
+
+<p>Una vez que el personal de mantenimiento ha completado la tarea asignada, procede a registrar la tarea como finalizada en el sistema de gesti&oacute;n correspondiente. Esto implica actualizar el estado de la tarea en el sistema, indicando que ha sido completada satisfactoriamente. Adem&aacute;s, el personal de mantenimiento puede agregar detalles adicionales, como el tiempo total empleado en la tarea, cualquier problema o desaf&iacute;o encontrado durante el proceso, y cualquier acci&oacute;n correctiva tomada.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[Media]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[C]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[Dado que el personal de mantenimiento ya ha realizado dicha tarea, cuando ha acabado la tarea entonces registra en la aplicación que la tarea ha sido finalizada.]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
+			<value><![CDATA[3]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Esfuerzo Realizado Req.]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<relation>
+		<source>RF 2.1</source>
+		<destination>RD 1.1</destination>
+		<type>3</type>
+	</relation>
+</req_spec>
+</req_spec>
+</requirement-specification>
