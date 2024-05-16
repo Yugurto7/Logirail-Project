@@ -46,13 +46,13 @@ Escapa del bullicio de la ciudad en nuestros entornos pacíficos y bien mantenid
 ### Ambiente Comunitario
 Únete a una comunidad vibrante de individuos con ideas afines que comparten tu pasión por el trabajo y el ocio. Participa en eventos para residentes, oportunidades de networking y reuniones sociales para construir conexiones y amistades.
 
-## Empleado desplazado
-
-![Diagrama](Diagramas/EmpleadoDesplazado.png)
-
 ## Diagrama de contexto
 
 ![Diagrama](Diagramas/diagrama.png)
+
+## Empleado desplazado
+
+![Diagrama](Diagramas/EmpleadoDesplazado.png)
 
 ## Mantenimiento
 
