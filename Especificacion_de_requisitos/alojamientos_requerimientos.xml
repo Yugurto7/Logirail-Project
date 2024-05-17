@@ -28,7 +28,7 @@
 		<docid><![CDATA[RNF 1.1]]></docid>
 		<title><![CDATA[Cantidad de usuarios en la aplicación]]></title>
 		<version>1</version>
-		<revision>4</revision>
+		<revision>7</revision>
 		<node_order>1</node_order>
 		<description><![CDATA[<p>Habitualmente en la aplicaci&oacute;n habr&aacute; unos 300&nbsp;usuarios autenticados buscando alojamientos a la vez</p>]]></description>
 		<status><![CDATA[F]]></status>
@@ -45,7 +45,7 @@
 			</custom_field>
 			<custom_field>
 			<name><![CDATA[Criterios de aceptacion]]></name>
-			<value><![CDATA[Dado que podemos tener unos 100 usuarios en nuestra aplicación, entonces necesitamos que la aplicación sea capaz de soportar la carga]]></value>
+			<value><![CDATA[Dado que podemos tener unos 300 usuarios en nuestra aplicación, entonces necesitamos que la aplicación sea capaz de soportar la carga]]></value>
 			</custom_field>
 			<custom_field>
 			<name><![CDATA[Esfuerzo Estimado Req.]]></name>
@@ -173,7 +173,7 @@
 		<docid><![CDATA[RD 1.2]]></docid>
 		<title><![CDATA[Datos de reserva]]></title>
 		<version>1</version>
-		<revision>8</revision>
+		<revision>9</revision>
 		<node_order>3</node_order>
 		<description><![CDATA[<p>Los datos de reserva deber&aacute;n indicar los siguientes datos:</p>
 
@@ -191,7 +191,7 @@
 	<li>Hora</li>
 </ul>
 
-<p><img alt="" src="http://localhost:9080/lib/attachments/attachmentdownload.php?id=2" style="height:611px; width:603px" /></p>]]></description>
+<p><img alt="" src="https://98c0-169-155-233-44.ngrok-free.app/lib/attachments/attachmentdownload.php?id=4" style="height:611px; width:603px" /></p>]]></description>
 		<status><![CDATA[F]]></status>
 		<type><![CDATA[3]]></type>
 		<expected_coverage><![CDATA[1]]></expected_coverage>
@@ -223,7 +223,7 @@
 		<docid><![CDATA[RD 1.3]]></docid>
 		<title><![CDATA[Datos de cancelación de reserva]]></title>
 		<version>1</version>
-		<revision>5</revision>
+		<revision>6</revision>
 		<node_order>4</node_order>
 		<description><![CDATA[<p>Los datos de cancelaci&oacute;n de reserva deber&aacute;&nbsp;incluir lo siguiente:</p>
 
@@ -238,7 +238,9 @@
 	</li>
 	<li>Fecha</li>
 	<li>Hora</li>
-</ul>]]></description>
+</ul>
+
+<p><img alt="" src="https://82c9-169-155-233-44.ngrok-free.app/lib/attachments/attachmentdownload.php?id=5" /></p>]]></description>
 		<status><![CDATA[F]]></status>
 		<type><![CDATA[3]]></type>
 		<expected_coverage><![CDATA[1]]></expected_coverage>
@@ -270,7 +272,7 @@
 		<docid><![CDATA[RD 1.4]]></docid>
 		<title><![CDATA[Preferencias]]></title>
 		<version>1</version>
-		<revision>9</revision>
+		<revision>10</revision>
 		<node_order>5</node_order>
 		<description><![CDATA[<p>Entre las preferencias del empleado desplazado, a la hora de buscar un alojamiento, podr&aacute; escoger lo siguiente:</p>
 
@@ -294,7 +296,9 @@
 	</li>
 	<li>Ciudad -&gt;&nbsp;required(Spain)-&gt;required(true) Dropdown with a cities of Spain.</li>
 	<li>Zona -&gt; default(cualquiera) Dropdown with zones of selected city.&nbsp;</li>
-</ul>]]></description>
+</ul>
+
+<p><img alt="" src="https://82c9-169-155-233-44.ngrok-free.app/lib/attachments/attachmentdownload.php?id=6" /></p>]]></description>
 		<status><![CDATA[F]]></status>
 		<type><![CDATA[3]]></type>
 		<expected_coverage><![CDATA[1]]></expected_coverage>
@@ -326,7 +330,7 @@
 		<docid><![CDATA[RD 1.5]]></docid>
 		<title><![CDATA[Alojamiento]]></title>
 		<version>1</version>
-		<revision>7</revision>
+		<revision>8</revision>
 		<node_order>6</node_order>
 		<description><![CDATA[<p>El alojamiento deber&aacute; tener los siguientes datos:</p>
 
@@ -351,7 +355,9 @@
 	</ul>
 	</li>
 	<li>Estado -&gt; (Ocupado, Disponible)</li>
-</ul>]]></description>
+</ul>
+
+<p><img alt="" src="https://82c9-169-155-233-44.ngrok-free.app/lib/attachments/attachmentdownload.php?id=7" /></p>]]></description>
 		<status><![CDATA[F]]></status>
 		<type><![CDATA[3]]></type>
 		<expected_coverage><![CDATA[1]]></expected_coverage>
